@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:replace="partials/fragment :: head('Home')"></head>
+<body>
+<nav th:replace="partials/fragment :: navbar"></nav>
+<main>
+	<section id="about-me">
+		<div class="about-me-container">
+			<div class="about-me-text-container">
+				<h2>About Me</h2>
+				<p>
+					Must go faster. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Do you have any idea how long it takes those cups to decompose. So you two dig up, dig up dinosaurs? They're using our own satellites against us. And the clock is ticking.
+				</p>
+				<p>
+					Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists. Hey, take a look at the earthlings. Goodbye! Checkmate... Hey, you know how I'm, like, always trying to save the planet? Here's my chance. I was part of something special.
+				</p>
+				<p>
+					Do you have any idea how long it takes those cups to decompose. Do you have any idea how long it takes those cups to decompose. God help us, we're in the hands of engineers. Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists.
+				</p>
+			</div>
+			<img src="/img/shane.jpg" alt="My photo" class="portrait"/>
+		</div>
+	</section>
+
+	<section id="contact">
+		<h2>Contact Information</h2>
+		<details class="contacts">
+			<summary class="contact-title">
+				<a href="https://github.com/s-banks" target="_blank"><i class="fa-brands fa-square-github"> GitHub</i></a>
+			</summary>
+		</details>
+		<details class="contacts">
+			<summary class="contact-title">
+				<a href="https://www.linkedin.com/in/banksshane/" target="_blank"><i class="fa-brands fa-linkedin"> LinkedIn</i></a>
+			</summary>
+		</details>
+	</section>
+
+<section id="skills">
+	<h2>Skills</h2>
+	<div id="skills-container">
+		<i class="fa-brands fa-java"></i>
+		<i class="fab fa-js"></i>
+		<i class="fab fa-html5"></i>
+		<i class="fab fa-css3-alt"></i>
+		<i class="fab fa-aws"></i>
+		<i class="fab fa-git"></i>
+		<i class="fab fa-chrome"></i>
+		<i class="fas fa-terminal"></i>
+		<i class="fab fa-github"></i>
+	</div>
+</section>
+</main>
+<div th:replace="partials/fragment :: scripts"></div>
+</body>
+</html>
